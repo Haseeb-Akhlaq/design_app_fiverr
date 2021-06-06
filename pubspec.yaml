@@ -1,0 +1,33 @@
+name: design
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/open_order/
+    - assets/order_accept_view/
+    - assets/completed_order/
+    - assets/completed_orders_group/
+    - assets/help_center/
+    - assets/order_details/
+    - assets/profile_view/
+
+  fonts:
+    - family: sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+
+    - family: sans-Bold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
